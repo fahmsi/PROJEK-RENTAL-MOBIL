@@ -20,9 +20,16 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {{-- <tr>
-                                <td></td>
-                            </tr> --}}
+                            @foreach($merkData as $merk)
+                            <tr>
+                                <td>{{$loop->iteration}}</td>
+                                <td>{{$merk->merk}}</td>
+                                <td>
+                                    <a href="/merk/edit/{{ $merk->id }}" class="btn btn-warning">Edit</a>
+                                    <a href="/merk/delete/{{ $merk->id }}" class="btn btn-danger">Hapus</a>
+                                </td>
+                            </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

@@ -14,7 +14,7 @@ class MerkController extends Controller
 
     function create()
     {
-        return view('pages.merk.create');
+            return view('pages.merk.create');
     }
 
     function store(Request $request)
@@ -45,7 +45,7 @@ class MerkController extends Controller
     {
         $merkData = Merk::find($id);
         $merkData -> delete();
-        return redirect()->to('/merk')->with('success', "Data berhasil dihapus");
+        return redirect()->to('/merk')->with('success', "Data merk berhasil dihapus");
     }
 
 }

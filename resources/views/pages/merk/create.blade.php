@@ -16,7 +16,7 @@
                     <div class="form-group"> 
                         <label for="">Merk Mobil</label> 
                         <input type="text" class="form-control" name="merk" required> 
-                    </div> 
+					</div> 
                     <div class="form-group mt-3"> 
                         <button class="form-control btn btn-primary" type="submit">Simpan</button> 
                     </div> 
@@ -24,4 +24,4 @@
             </div> 
         </div> 
     </div> 
-@endsection
+        @endsection

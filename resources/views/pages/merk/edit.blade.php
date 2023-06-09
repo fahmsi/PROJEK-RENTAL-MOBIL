@@ -5,7 +5,7 @@
         <h1 class="mt-4">Merk</h1> 
         <div class="d-flex justify-content-between mb-3"> 
             <ol class="breadcrumb"> 
-                <li class="breadcrumb-item active">Tambah Data Merk</li> 
+                <li class="breadcrumb-item active">Edit Data Merk</li> 
             </ol> 
             <a href="/merk" class="btn btn-warning">kembali</a> 
         </div> 
