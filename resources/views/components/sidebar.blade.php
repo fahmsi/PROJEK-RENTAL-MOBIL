@@ -51,13 +51,13 @@
                     </nav>
                 </div>
                 <div class="sb-sidenav-menu-heading">Addons</div>
-                <a class="nav-link" href="#">
+                <a class="nav-link {{request()->segment(1) == "tipemobil" ? "active" : ""}}" href="tipemobil">
                     <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                    Charts
+                    tipe mobil
                 </a>
-                <a class="nav-link" href="#">
+                <a class="nav-link {{request()->segment(1) == "merk" ? "active" : ""}}" href="merk">
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                    Tables
+                    merk
                 </a>
             </div>
         </div>

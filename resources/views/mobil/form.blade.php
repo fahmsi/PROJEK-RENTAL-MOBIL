@@ -24,7 +24,7 @@
                 <input type="text" name="cc" required><br>
             </div>
             <div>
-              <button type="submit">Simpan</button>
+                <button type="submit">Simpan</button>
             </div>
         </form>
     </div>
